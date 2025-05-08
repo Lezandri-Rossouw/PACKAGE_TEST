@@ -1,0 +1,16 @@
+class /EGS/CL_PRI_PERFORMANCE_TEST definition
+  public
+  final
+  create public .
+
+public section.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS /EGS/CL_PRI_PERFORMANCE_TEST IMPLEMENTATION.
+
+
+ENDCLASS.

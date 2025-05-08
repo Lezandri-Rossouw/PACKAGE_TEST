@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/EGS/CL_ATC_CHECK_NAMESPACE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Check namespace</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>P</RSTAT>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Obj &amp;1 type &amp;2 expected namespace: &quot;&amp;3&quot;.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>&lt;消息文本 1&gt;</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>&lt;message text 1&gt;</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>&lt;message text 1&gt;</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>M</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>&lt;message text&gt;</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>&lt;message text 1&gt;</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>&lt;message text 1&gt;</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&lt;DS:TX.S_CODE_INSPECTOR&gt;Code Inspector&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U2</TDFORMAT>
+     <TDLINE>Class: Source Text for Include</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Retrieves the code imported into an internal table using &lt;EX&gt;READ</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>REPORT&lt;/&gt; in the attribute &lt;ZH&gt;REF_INCLUDE&lt;/&gt; (= REF TO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>CL_CI_SOURCE_INCLUDE).</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;HINTS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>Abstract class for retrieving and formatting data</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Examined objects: Program-type objects</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Help class: CL_CI_SOURCE_INCLUDE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Extends class CL_CI_TEST_ROOT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>&lt;DS:CL.CL_CI_TEST_ROOT&gt;Technical Description of Code Inspector Check</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Classes&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&lt;DS:TX.S_CODE_INSPECTOR&gt;Code Inspector&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Klasse:  &apos;Quelltext für Include&apos;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Stellt im Attribut &lt;ZH&gt;REF_INCLUDE&lt;/&gt;  (= REF TO CL_CI_SOURCE_INCLUDE)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>das mittels &apos;&lt;EX&gt;READ REPORT&lt;/&gt;&apos; in eine interne Tabelle eingelesene</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Coding bereit.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>abstrakte Klasse zur Bereitstellung und Aufbereitung von Daten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>bearbeitete Objekte:  programmartige Objekte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Hilfsklasse: CL_CI_SOURCE_INCLUDE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>erweitert Klasse CL_CI_TEST_ROOT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:CL.CL_CI_TEST_ROOT&gt;Technische Beschreibung der Code Inspector</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Prüfklassen&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
